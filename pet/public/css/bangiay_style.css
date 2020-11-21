@@ -1,0 +1,69 @@
+.top-bar {
+    background-color: #f44277;
+	color:#fff;
+}
+.top-bar a{
+	color:#fff;
+	line-height: 0;
+}
+ /*kết thúc .top-bar */
+/* .page_header h1{
+    font-size: 24;
+    color: #f44277;
+} */
+/* kết thúc page_header h1 */
+.dropdown-menu {
+    display: inherit;
+    min-width: 220px;
+    padding: 3px 0;
+    border: 0;
+    background-color: #fff;
+    border-top: 4px solid #f44277;
+    border-radius: 0;
+    -o-box-shadow: 0 6px 12px rgba(0,0,0,.100);
+    -ms-box-shadow: 0 6px 12px rgba(0,0,0,.100);
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.100);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.100);
+    box-shadow: 0 6px 12px rgba(0,0,0,.100);
+}
+/*                  */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #f44277;
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 5px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+	z-index:1000;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff !important;
+    background-color: #f44277 !important;
+    -moz-transition: all 0.3s ease 0.2s;
+    -ms-transition: all 0.3s ease 0.2s;
+    -o-transition: all 0.3s ease 0.2s;
+    transition: all 0.3s ease 0.2s;
+}
+.btc_shop_single_prod_right_section h1:after {
+    content: '';
+    border: 1px solid  #f44277;
+    width: 45px;
+    display: block;
+    position: relative;
+    top: 15px;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+
